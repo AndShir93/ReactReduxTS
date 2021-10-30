@@ -1,5 +1,5 @@
-import {Dispatch} from "react";
-import {TAction, UserActionTypes} from "../../types";
+import { Dispatch } from "react";
+import { TAction, UserActionTypes } from "../../types";
 import axios from "axios";
 
 export const fetchUsers = () => {

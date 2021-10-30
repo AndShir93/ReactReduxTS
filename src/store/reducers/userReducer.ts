@@ -1,4 +1,4 @@
-import {IUserState, TUserReducer, UserActionTypes} from "../../types";
+import { IUserState, TUserReducer, UserActionTypes } from "../../types";
 
 
 const initialState: IUserState = {

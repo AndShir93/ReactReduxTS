@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { useTypedSelector } from "./hooks/useTypedSelector";
-import {useDispatch} from "react-redux";
-import {fetchUsers} from "./store/action-creators/user";
+import { useDispatch } from "react-redux";
+import { fetchUsers } from "./store/action-creators/user";
 
 function App() {
   const state = useTypedSelector(state => state.user);
@@ -11,7 +11,7 @@ function App() {
     dispatch(fetchUsers());
   },[])
   console.log('state', state);
-  
+
   return (
     <>
     </>
